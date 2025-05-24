@@ -23,7 +23,10 @@
 ---
 ## 1. Installing Git
 
+Create an account on [Github.com](https://www.github.com).
+To install Git, please go to [Git downloads](https://git-scm.com/downloads). 
 
+---
 
 ## 2. What is Git?
 
