@@ -47,6 +47,8 @@ Think of it like a **save system for your code** — with branching and multipla
 
 ## 4. What Are Branches?
 
+![image](https://github.com/user-attachments/assets/2dce9460-c146-4da5-8b54-2c2197aaa174)
+
 **Branches** are like alternate timelines of your project.
 
 They let you:
