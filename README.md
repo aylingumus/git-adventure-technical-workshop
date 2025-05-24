@@ -2,10 +2,11 @@
 
 ## 📌 Table of Contents
 
-1. [What is Git?](#1-what-is-git)
-2. [Why is Git Important for Developers?](#2-why-is-git-important-for-developers)
-3. [What Are Branches?](#3-what-are-branches)
-4. [Basic Git Commands](#4-basic-git-commands)
+1. [Installing Git](#1-installing-git)
+2. [What is Git?](#2-what-is-git)
+3. [Why is Git Important for Developers?](#3-why-is-git-important-for-developers)
+4. [What Are Branches?](#4-what-are-branches)
+5. [Basic Git Commands](#5-basic-git-commands)
    - `git clone`
    - `git fetch`
    - `git pull`
@@ -13,15 +14,18 @@
    - `git commit`
    - `git push`
    - `git checkout`
-5. [Practicing Basic Git Commands](#5-practicing-basic-git-commands)
-6. [Merge Conflicts: What & Why](#6-merge-conflicts-what--why)
-7. [Practicing Merge Conflicts](#7-practicing-merge-conflicts)
-8. [Bonus: Other Important Git Topics](#8-bonus-other-important-git-topics)
-9. [Resources](#9-resources)
+6. [Practicing Basic Git Commands](#6-practicing-basic-git-commands)
+7. [Merge Conflicts: What & Why](#7-merge-conflicts-what--why)
+8. [Practicing Merge Conflicts](#8-practicing-merge-conflicts)
+9. [Bonus: Other Important Git Topics](#9-bonus-other-important-git-topics)
+10. [Resources](#10-resources)
 
 ---
+## 1. Installing Git
 
-## 1. What is Git?
+
+
+## 2. What is Git?
 
 **Git** is a version control system that tracks changes in your code and allows multiple people to collaborate on projects. It records what you did and when, so you can go back if needed.
 
@@ -29,7 +33,7 @@ Think of it like a **save system for your code** — with branching and multipla
 
 ---
 
-## 2. Why is Git Important for Developers?
+## 3. Why is Git Important for Developers?
 
 - 🕒 **Track history:** Revert to previous versions.
 - 👯 **Collaborate easily:** Work with others without overwriting each other’s code.
@@ -38,7 +42,7 @@ Think of it like a **save system for your code** — with branching and multipla
 
 ---
 
-## 3. What Are Branches?
+## 4. What Are Branches?
 
 **Branches** are like alternate timelines of your project.
 
@@ -78,7 +82,7 @@ List all branches:
 git branch
 ```
 
-## 4. Basic Git Commands
+## 5. Basic Git Commands
 
 ### ✅ `git clone`
 
@@ -131,7 +135,7 @@ Sends your committed changes to the remote repository.
 git push
 ```
 
-## 5. Practicing Basic Git Commands
+## 6. Practicing Basic Git Commands
 
 ### Setup
 
@@ -158,7 +162,7 @@ git commit -m "Add hello.txt"
 git push
 ```
 
-## 6. Merge Conflicts: What & Why
+## 7. Merge Conflicts: What & Why
 
 A merge conflict happens when Git can’t automatically merge changes. This usually occurs when:
 
@@ -177,7 +181,7 @@ This is the incoming change
 
 You must manually choose or combine the correct content, then stage and commit the file.
 
-## 7. Practicing Merge Conflicts
+## 8. Practicing Merge Conflicts
 
 ### Steps
 
@@ -222,7 +226,7 @@ git add greeting.txt
 git commit -m "Resolve merge conflict"
 ```
 
-## 6. Bonus:
+## 9. Bonus:
 
 Other Important Git Topics
 
@@ -269,7 +273,7 @@ See differences:
 git diff
 ```
 
-## 9. Resources
+## 10. Resources
 
 [Git Official Documentation](https://git-scm.com/doc)
 
