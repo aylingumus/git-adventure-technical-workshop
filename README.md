@@ -2,8 +2,6 @@
 
 ## 📌 Table of Contents
 
-- [🛠 Git Workshop Manual for Beginners](#-git-workshop-manual-for-beginners)
-  - [📌 Table of Contents](#-table-of-contents)
   - [1. Installing Git](#1-installing-git)
   - [2. What is Git?](#2-what-is-git)
   - [3. Why is Git Important for Developers?](#3-why-is-git-important-for-developers)
