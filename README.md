@@ -333,7 +333,7 @@ GitHub Desktop is a graphical user interface (GUI) for Git that makes it easier 
 - Resolve merge conflicts with an interface
 
 How to Get Started:
-- Download: desktop.github.com (Available for macOS and Windows)
+- Download: [desktop.github.com](https://desktop.github.com/download/) (Available for macOS and Windows)
 - Install and log in with your GitHub account
 
 ---
