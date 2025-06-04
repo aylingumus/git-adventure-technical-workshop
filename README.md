@@ -222,6 +222,15 @@ A merge conflict happens when Git can’t automatically merge changes. This usua
 - Two people edit the same line of a file.
 - A file is deleted in one branch and edited in another.
 
+You’ll see conflict markers in the file:
+
+```text
+<<<<<<< HEAD
+This is your change
+=======
+This is the incoming change
+>>>>>>> branch-name
+```
 
 You must manually choose or combine the correct content, then stage and commit the file.
 
