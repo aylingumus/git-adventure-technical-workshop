@@ -2,23 +2,26 @@
 
 ## 📌 Table of Contents
 
-1. [Installing Git](#1-installing-git)
-2. [What is Git?](#2-what-is-git)
-3. [Why is Git Important for Developers?](#3-why-is-git-important-for-developers)
-4. [What Are Branches?](#4-what-are-branches)
-5. [Basic Git Commands](#5-basic-git-commands)
-   - `git clone`
-   - `git fetch`
-   - `git pull`
-   - `git add`
-   - `git commit`
-   - `git push`
-   - `git checkout`
-6. [Practicing Basic Git Commands](#6-practicing-basic-git-commands)
-7. [Merge Conflicts: What & Why](#7-merge-conflicts-what--why)
-8. [Practicing Merge Conflicts](#8-practicing-merge-conflicts)
-9. [Bonus: Other Important Git Topics](#9-bonus-other-important-git-topics)
-10. [Resources](#10-resources)
+  - [1. Installing Git](#1-installing-git)
+  - [2. What is Git?](#2-what-is-git)
+  - [3. Why is Git Important for Developers?](#3-why-is-git-important-for-developers)
+  - [4. Terminal or Command Line Basics](#4-terminal-or-command-line-basics)
+  - [5. What Are Branches?](#5-what-are-branches)
+  - [6. Basic Git Commands](#6-basic-git-commands)
+    - [✅ `git clone`](#-git-clone)
+    - [📡 `git fetch`](#-git-fetch)
+    - [🔄 `git pull`](#-git-pull)
+    - [➕ `git add`](#-git-add)
+    - [📝 `git commit`](#-git-commit)
+    - [⬆️ `git push`](#️-git-push)
+  - [7. Practicing Basic Git Commands](#7-practicing-basic-git-commands)
+  - [8. Merge Conflicts: What \& Why](#8-merge-conflicts-what--why)
+  - [9. Practicing Merge Conflicts](#9-practicing-merge-conflicts)
+  - [10. Bonus:](#10-bonus)
+    - [`.gitignore`](#gitignore)
+    - [Undoing changes:](#undoing-changes)
+    - [GitHub Desktop](#github-desktop)
+  - [11. Resources](#11-resources)
 
 ---
 ## 1. Installing Git
@@ -45,7 +48,46 @@ Think of it like a **save system for your code** — with branching and multipla
 
 ---
 
-## 4. What Are Branches?
+## 4. Terminal or Command Line Basics
+
+### What is the Terminal?
+
+The Terminal is a simple, text-based way to talk to your computer. Instead of clicking buttons, you type commands to tell it what to do, like opening files, running programs, or using tools like Git. 
+
+### Opening the Terminal
+
+- **macOS:** Use Spotlight → search "Terminal"
+- **Windows:** Use Command Prompt, PowerShell, or Git Bash
+- **Linux:** Press `Ctrl + Alt + T`
+
+### Common Commands
+
+| Command     | Description                        |
+|-------------|------------------------------------|
+| `pwd`       | Print working directory path       |
+| `ls`        | List files and directories         |
+| `cd`        | Change directory                   |
+| `mkdir`     | Create a new directory             |
+| `touch`     | Create a new empty file            |
+| `rm`        | Remove a file or directory         |
+| `clear`     | Clear the terminal screen          |
+
+### Navigating the File System
+
+- `cd folder_name` – move into a folder  
+- `cd ..` – go back one directory  
+- `ls -a` – list all files including hidden ones  
+- Use `Tab` to auto-complete file and folder names
+
+### Editing Files with CLI Tools
+
+- `nano filename.txt` – open file in Nano text editor  
+- `vim filename.txt` – open file in Vim (advanced)  
+- `code .` – open current folder in VS Code (requires VS Code CLI installed)
+
+---
+
+## 5. What Are Branches?
 
 ![image](https://github.com/user-attachments/assets/2dce9460-c146-4da5-8b54-2c2197aaa174)
 
@@ -87,7 +129,9 @@ List all branches:
 git branch
 ```
 
-## 5. Basic Git Commands
+---
+
+## 6. Basic Git Commands
 
 ### ✅ `git clone`
 
@@ -140,7 +184,9 @@ Sends your committed changes to the remote repository.
 git push
 ```
 
-## 6. Practicing Basic Git Commands
+---
+
+## 7. Practicing Basic Git Commands
 
 ### Setup
 
@@ -167,7 +213,9 @@ git commit -m "Add hello.txt"
 git push
 ```
 
-## 7. Merge Conflicts: What & Why
+---
+
+## 8. Merge Conflicts: What & Why
 
 A merge conflict happens when Git can’t automatically merge changes. This usually occurs when:
 
@@ -186,7 +234,10 @@ This is the incoming change
 
 You must manually choose or combine the correct content, then stage and commit the file.
 
-## 8. Practicing Merge Conflicts
+
+---
+
+## 9. Practicing Merge Conflicts
 
 ### Steps
 
@@ -231,7 +282,9 @@ git add greeting.txt
 git commit -m "Resolve merge conflict"
 ```
 
-## 9. Bonus:
+---
+
+## 10. Bonus:
 
 Other Important Git Topics
 
@@ -278,7 +331,23 @@ See differences:
 git diff
 ```
 
-## 10. Resources
+## GitHub Desktop
+
+GitHub Desktop is a graphical user interface (GUI) for Git that makes it easier for beginners to use Git without needing to type commands in the terminal.
+
+### Key Features
+- Clone repositories with a click
+- View changes and commits visually
+- Drag-and-drop file staging
+- Resolve merge conflicts with an interface
+
+How to Get Started:
+- Download: [desktop.github.com](https://desktop.github.com/download/) (Available for macOS and Windows)
+- Install and log in with your GitHub account
+
+---
+
+## 11. Resources
 
 [Git Official Documentation](https://git-scm.com/doc)
 
